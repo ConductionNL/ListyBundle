@@ -1,13 +1,13 @@
 <?php
 
-namespace Conduction\ListlyBundle\DependencyInjection;
+namespace Conduction\ListyBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
-class ListlyExtension extends Extension
+class ListyExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $container)
     {

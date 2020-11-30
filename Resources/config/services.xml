@@ -7,7 +7,7 @@
         <defaults autowire="true" autoconfigure="true" />
 
         <!--Rocket Controllers-->
-        <service id="conduction_listly.default_controller" class="Conduction\ListlyBundle\Controller\DefaultController" public="true">
+        <service id="conduction_listy.default_controller" class="Conduction\ListyBundle\Controller\DefaultController" public="true">
             <call method="setContainer">
                 <argument type="service" id="service_container"/>
             </call>

@@ -2,7 +2,7 @@
 
 // Controller/DefaultController.php
 
-namespace Conduction\ListlyBundle\Controller;
+namespace Conduction\ListyBundle\Controller;
 
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -23,8 +23,8 @@ class DefaultController extends AbstractController
     /**
      * This function serves the base (home) path for this template
      *
-     * "/", name="conduction_listly_default_index", priority=2
-     * @Route("/", name="conduction_listly_default_index")
+     * "/", name="conduction_listy_default_index", priority=2
+     * @Route("/", name="conduction_listy_default_index")
      * @Template
      */
     public function indexAction(Session $session, Request $request)

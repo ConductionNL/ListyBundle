@@ -1,5 +1,5 @@
 {
-	"name" : "conduction/listlybundle",
+	"name" : "conduction/listybundle",
 	"type" : "library",
 	"description" : "Symfony Bundle for dutch common ground functionality",
 	"keywords" : [
@@ -24,7 +24,7 @@
 	},
 	"autoload" : {
 		"psr-4" : {
-			"Conduction\\ListlyBundle\\" : ""
+			"Conduction\\ListyBundle\\" : ""
 		},
 		"exclude-from-classmap" : [
 			"/Tests/"
@@ -33,12 +33,12 @@
 	"minimum-stability" : "alpha",
 	"support" : {
 		"email" : "ruben@conduction.nl",
-		"issues" : "https://github.com/ConductionNL/ListlyBundle/issues",
-		"source" : "https://github.com/ConductionNL/ListlyBundle"
+		"issues" : "https://github.com/ConductionNL/ListyBundle/issues",
+		"source" : "https://github.com/ConductionNL/ListyBundle"
 	},
 	"repositories" : [{
 		"type" : "git",
-		"url" : "https://github.com/ConductionNL/ListlyBundle",
+		"url" : "https://github.com/ConductionNL/ListyBundle",
 		"name" : "source"
 	}
 	]

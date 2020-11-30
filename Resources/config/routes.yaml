@@ -1,0 +1,4 @@
+# config/routes.yaml
+conduction_listly_default_index:
+    path:       /
+    controller: Conduction\ListlyBundle\Controller\DefaultController::indexAction

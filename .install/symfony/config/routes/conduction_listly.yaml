@@ -1,0 +1,3 @@
+conduction_listly:
+  resource: "@ListlyBundle/Resources/config/routes.yaml"
+  prefix: /
